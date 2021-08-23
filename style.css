@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+}
+body {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: flex-end;
+}
+.google-apps {
+  border-radius: 60%;
+  padding: 4px;
+}
+.google-apps svg {
+  padding: 0;
+  width: 22px;
+  color: rgba(168, 167, 167, 0.493);
+}
+.google-apps:hover {
+  background: #6d6c6c13;
+}
+
+header h6 {
+  padding: 10px;
+  color: black;
+  font-size: 12px;
+  font-weight: 300;
+}
+header h6:hover {
+  text-decoration: underline;
+}
+.profile-pic img {
+  width: 30px;
+  border-radius: 50%;
+}
+.profile-pic img:hover {
+  box-shadow: 0px 0px 0px 9px rgba(0, 0, 0, 0.04);
+}
+.profile-pic {
+  padding-left: 12px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.table-container {
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 20px;
+  width: 500px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.table-container > i {
+  color: grey;
+}
+input {
+  border: none;
+  outline: none;
+}
+
+.search {
+  width: 400px;
+  height: 30px;
+}
+.voice-search {
+  width: 15px;
+}
+
+.btns {
+  padding: 20px;
+}
+
+.btn {
+  margin: 5px;
+  padding: 10px 12px;
+  border: none;
+  background-color: rgba(160, 157, 157, 0.103);
+  font: 300;
+  font-size: 14px;
+}
+
+.btn:hover {
+  border: solid grey 1px;
+}
+footer {
+  background: rgba(233, 232, 232, 0.596);
+  margin-top: 50px;
+}
+.country {
+  padding: 20px 30px;
+
+  border-bottom: rgba(128, 128, 128, 0.24) 1px solid;
+}
+.country > h6 {
+  font-size: 15px;
+  font-weight: 200;
+  color: rgb(138, 136, 136);
+  font: sans-serif;
+}
+.carbon-neutral {
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+  justify-content: center;
+}
+.carbon-neutral > p {
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 200;
+  color: rgb(138, 136, 136);
+  font: sans-serif;
+}
+.sect-2-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.right-footer > ul {
+  display: flex;
+  justify-content: space-around;
+}
+.left-footer > ul {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style-type: none;
+  padding: 15px;
+  font-size: 13px;
+  font-weight: 200;
+  color: rgb(138, 136, 136);
+  font: sans-serif;
+}
+@media screen and (max-width: 700px) {
+  .right-footer > ul {
+    display: flex;
+
+    justify-content: space-around;
+  }
+  .left-footer > ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sect-2-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+}
